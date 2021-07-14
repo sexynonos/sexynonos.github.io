@@ -1,0 +1,13 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+order deny,allow
+AddType video/ogg ogv
+AddType video/mp4 mp4
+AddType video/webm webm
+AddType application/x-shockwave-flash  swf
+AddType audio/webm webm
+AddType audio/wav  wav
+AddType audio/mpeg mp3
+AddType audio/ogg  oga
+AddType audio/mp4  m4a

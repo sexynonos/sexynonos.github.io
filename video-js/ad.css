@@ -1,0 +1,24 @@
+div.vjsext-picture-ad {
+  display: none; /* Start hidden */ z-index: 2;
+  position: absolute; top: 50%; left: 50%; 
+  text-align: center; vertical-align: center; cursor: pointer !important;  
+  /* CSS Shadows */
+  box-shadow: 4px 4px 8px #000; -webkit-box-shadow: 4px 4px 8px #000; -moz-box-shadow: 4px 4px 8px #000;
+}
+
+div.vjsext-picture-ad-close {
+	background:url("close.png") no-repeat;
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:20px;
+	height:20px;
+	z-index: 1006;
+}
+
+.vjsext-picture-ad a{ COLOR: #FFFFFF;TEXT-DECORATION: none;}
+.vjsext-picture-ad a:hover{ COLOR: #FFFFFF;TEXT-DECORATION: none;}
+.vjsext-picture-ad a:link{ COLOR: #FFFFFF;TEXT-DECORATION: none;}
+.vjsext-picture-ad a:visited{ COLOR: #FFFFFF;TEXT-DECORATION: none;}
+
+.video-js-box.vjs-fullscreen .vjsext-picture-ad { z-index: 1004; }
